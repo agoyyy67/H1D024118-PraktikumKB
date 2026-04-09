@@ -15,7 +15,7 @@ tingkat_kepuasan = ctrl.Consequent(np.arange(0, 401, 1), 'tingkat_kepuasan')
 # kejelasaninformasi
 informasi_jelas['tidak memuaskan'] = fuzz.trapmf(informasi_jelas.universe, [0, 0, 60,75])
 informasi_jelas['cukup memuaskan'] = fuzz.trimf(informasi_jelas.universe, [60, 75, 90])
-informasi_jelas['memuaskan'] = fuzz.trapmf(informasi_jelas.universe, [75, 90, 100,100]) # Corrected typo here
+informasi_jelas['memuaskan'] = fuzz.trapmf(informasi_jelas.universe, [75, 90, 100,100]) 
 
 # kejelasanpersyarat
 persyaratan_jelas['tidak memuaskan'] = fuzz.trapmf(persyaratan_jelas.universe, [0, 0, 60,75])
